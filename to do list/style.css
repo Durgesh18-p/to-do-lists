@@ -16,7 +16,12 @@ body {
     margin: auto;
     background-color: whitesmoke;
     margin-top: 0.8rem;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+}
+
+.box:hover{
+    border-radius: 15px;   
+    border:1px solid black;
 }
 
 .input {
