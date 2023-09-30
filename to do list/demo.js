@@ -24,7 +24,7 @@ addButton.addEventListener('click',function(){
     const removeButton = document.querySelectorAll('#remove');
     Array.from(removeButton).forEach((e) => {
         e.addEventListener('click',(e) => {
-            newPara.remove()
+            e.target.parentElement.remove()
         })
     })
 }  

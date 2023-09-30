@@ -3,28 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Messege Project</title>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container flex">
-        <div class="box flex">
-            <div class="input-box flex">
-                <label for="messege">A Messege You Would Like To Pass</label>
-                <input type="text" id="input">
-            </div>
-    
-            <div class="btn-div">
-                <button class="btn" id="btn">Submit</button>
-            </div>
-    
-            <div class="msg-delivery">
-                <h3>Last Messege Delivered!</h3>
-                <!-- <span></span> -->
-            </div>
+    <div class="container">
+        <div class="box">
+            <input type="text" class="input" id="input" placeholder="Enter a task.....">
+            <button class="button" id="btn">Add</button>
+
+            
+            <!-- <div class="output">
+                <p class="para">lorem10<button class="delete">
+                    <i class="fa-solid fa-rectangle-xmark"></i>
+                </button></p>
+            </div> -->
         </div>
     </div>
-
 
     <script src="demo.js"></script>
 </body>
